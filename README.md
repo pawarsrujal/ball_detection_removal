@@ -110,13 +110,6 @@ All processed images are prefixed with `removed_` to distinguish them from origi
 | Inpaint Radius | 3 | Neighborhood radius for inpainting |
 | Morphology Kernel | 7x7 | Structuring element size for mask refinement |
 
-## Error Handling
-
-- **Missing Folder ID Access**: Skips and continues with available images
-- **Non-Image Files**: Automatically skipped during download
-- **Detection Failures**: Falls back to Hough Circle Transform
-- **Hough Failure**: Skips image and continues processing
-- **Drive Save Failures**: Attempts both mounted path and API upload methods
 
 ## Usage Example
 
