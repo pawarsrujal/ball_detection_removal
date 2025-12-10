@@ -5,7 +5,7 @@
 This project automatically detects and removes balls from images using advanced computer vision techniques. It leverages YOLOv8 for object detection and segmentation, combined with inpainting algorithms to seamlessly remove detected balls from images.
 
 
-## Input vs Output
+## Sample Input vs Output
 
 <table>
   <tr>
@@ -14,13 +14,14 @@ This project automatically detects and removes balls from images using advanced 
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/input.jpg" alt="Input Image" width="380">
+      <img src="assets/input_.jpg" alt="Input Image" width="380">
     </td>
     <td align="center">
-      <img src="assets/output.jpg" alt="Output Image" width="380">
+      <img src="assets/output_.jpg" alt="Output Image" width="380">
     </td>
   </tr>
 </table>
+
 
 
 ## Features
